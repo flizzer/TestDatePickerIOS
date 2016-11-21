@@ -23,7 +23,7 @@ export default class TestDatePickerIOS extends Component {
   }
 
   onDateChange(date) {
-      this.setState(date: date);
+      this.setState({ date });
   }
 
   render() {
@@ -42,7 +42,7 @@ export default class TestDatePickerIOS extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    // flex: 1,
+    flex: 1,
     // justifyContent: 'center',
     // alignItems: 'center',
     backgroundColor: '#C8B8AA',
